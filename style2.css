@@ -1,0 +1,27 @@
+.page-container-prizes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(213, 229, 213);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.habit-item1-prizes {
+    margin-top: 35px;
+    font-size: larger;
+}
+.habit-item2-prizes {
+    font-size: larger;
+}
+.habit-item3-prizes {
+
+    font-size: larger;
+}
+.habit-item4-prizes{
+
+    font-size: larger;
+}
