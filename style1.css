@@ -22,7 +22,7 @@ button {
 
 .banner{
     width: 100%;
-    height: 100%;
+    height: calc(100% - 80px);
     position: fixed;
     top: 0;
     left: 0;
@@ -72,4 +72,28 @@ button {
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .habits1{
+        margin-right: 10px;
+    }
     
+    .habits1:hover{
+        opacity: 0.7;
+    }
+    
+    .home:hover{
+        opacity: 0.7;
+    }
+
+    .nav-bar{
+        position: fixed; 
+        top: 0; 
+        left: 0;
+        width: 100%;
+        height: 82px;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        z-index: 1000;
+    }
