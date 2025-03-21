@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navici</title>
 
-    <link rel="stylesheet" href="style1.css"/>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}"/>
 </head>
 <body>     
     <nav class="nav-bar">
-        <a class="navbar-brand" href="/">
-          <img src="image5.webp" alt="Logo" id="logo" style="width: 85px; height: 80px;margin-right: 10px; margin-top: 5px;">
+        <a class="navbar-brand" href="{% url 'home' %}/">
+          <img src="{% static 'images/image5.webp' %}" alt="Logo" id="logo" style="width: 85px; height: 80px;margin-right: 10px; margin-top: 5px;">
         </a>
-        <a href="index.html" class="home">
+        <a href="{% url 'home' %}" class="home">
           Home
         </a>
-        <a href="navici.html" class="habits1">
+        <a href="{% url 'habits' %}" class="habits1">
           Habits
         </a>
 
-        <a href="prizes.html" class="prizes">
+        <a href="{% url 'rewards' %}" class="prizes">
             Rewards
         </a>
       </nav>

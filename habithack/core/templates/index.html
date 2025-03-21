@@ -1,8 +1,9 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
     <title>Habits-HACK</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap" rel="stylesheet">
@@ -12,7 +13,7 @@
     <div class="banner">
       <p class="index-title">Habits-HACK</p>
       <button class="start-button">
-        <a href="navici.html">
+        <a href="{% url 'habits' %}">
           Get started
         </a>
       </button>
