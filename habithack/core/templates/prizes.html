@@ -2,21 +2,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <nav class="nav-bar">
-        <a class="navbar-brand" href="{% url 'home' %}">
-          <img src="{% static 'images/image5.webp'%}" alt="Logo" id="logo" style="width: 85px; height: 80px;margin-right: 10px; margin-top: 5px;">
-        </a>
-        <a href="{% url 'home' %}" class="home">
-          Home
-        </a>
-        <a href="{% url 'habits' %}" class="habits1">
-          Habits
-        </a>
-        <a href="{% url 'rewards' %}" class="prizes">
-            Rewards
-        </a>
-      </nav>
-        <div class="banner">
+    <nav class="nav-bar"> 
+      <a class="navbar-brand" href="{% url 'home' %}/">
+        <img src="{% static 'images/image5.webp' %}" alt="Logo" id="logo" style="width: 85px; height: 80px;margin-right: 10px; margin-top: 5px;">
+      </a>
+      <a href="{% url 'home' %}" class="home">
+        Home
+      </a>
+      <a href="{% url 'habits' %}" class="navici">
+        Habits
+      </a>
+      <a href="{% url 'rewards' %}" class="prizes">
+          Rewards
+      </a>
+    </nav>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prizes</title>
@@ -25,7 +24,6 @@
 </head>
 
 <body>
-    
         <div class="page-container-prizes">
           <h1 class="title1">Habits-HACK</h1>
          
